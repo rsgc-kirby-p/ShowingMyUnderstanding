@@ -27,9 +27,27 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 300, height: 300)
+let canvas = Canvas(width: 400, height: 400)
 
-// Replace this comment and add your code below...
+
+//make the dots
+canvas.drawShapesWithBorders = false
+
+canvas.fillColor = Color(hue: 187, saturation: 100, brightness: 100, alpha: 60.0)
+canvas.drawEllipse(centreX: 100, centreY: 75, width: 75, height: 75)
+canvas.drawEllipse(centreX: 100, centreY: 275, width: 75, height: 75)
+
+canvas.fillColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 60.0)
+canvas.drawEllipse(centreX: 300, centreY: 275, width: 75, height: 75)
+canvas.drawEllipse(centreX: 300, centreY: 75, width: 75, height: 75)
+
+
+
+
+
+
+
+
 
 
 /*:
