@@ -42,6 +42,9 @@ canvas.drawEllipse(centreX: 300, centreY: 275, width: 75, height: 75)
 canvas.drawEllipse(centreX: 300, centreY: 75, width: 75, height: 75)
 
 
+canvas.defaultLineWidth = 75
+canvas.fillColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 60.0)
+canvas.drawLine(fromX: 100, fromY: 75, toX: 100, toY: 275)
 
 
 
