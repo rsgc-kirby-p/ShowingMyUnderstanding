@@ -29,22 +29,21 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-
-//make the dots
-canvas.drawShapesWithBorders = false
-
-canvas.fillColor = Color(hue: 187, saturation: 100, brightness: 100, alpha: 60.0)
-canvas.drawEllipse(centreX: 100, centreY: 75, width: 75, height: 75)
-canvas.drawEllipse(centreX: 100, centreY: 275, width: 75, height: 75)
-
-canvas.fillColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 60.0)
-canvas.drawEllipse(centreX: 300, centreY: 275, width: 75, height: 75)
-canvas.drawEllipse(centreX: 300, centreY: 75, width: 75, height: 75)
-
-
 canvas.defaultLineWidth = 75
-canvas.fillColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 60.0)
+canvas.lineColor = Color(hue: 187, saturation: 100, brightness: 100, alpha: 100)
 canvas.drawLine(fromX: 100, fromY: 75, toX: 100, toY: 275)
+canvas.lineColor = Color(hue: 187, saturation: 100, brightness: 100, alpha: 92.0)
+canvas.drawLine(fromX: 100, fromY: 275, toX: 200, toY: 75)
+
+canvas.lineColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 100)
+canvas.drawLine(fromX: 300, fromY: 75, toX: 300, toY: 275)
+canvas.lineColor = Color(hue: 6, saturation: 65, brightness: 100, alpha: 92.0)
+canvas.drawLine(fromX: 300, fromY: 275, toX: 200, toY: 75)
+
+
+
+
+
 
 
 
